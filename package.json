@@ -1,0 +1,23 @@
+{
+  "name": "sentry-span-batch-processor",
+  "version": "1.0.0",
+  "description": "Wrapper around transport to batch spans into multiple traces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serglom21/sentry-span-batch-processor.git"
+  },
+  "author": "Sergio Lombana",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "8.33.1",
+    "dotenv": "^16.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/serglom21/sentry-span-batch-processor/issues"
+  },
+  "homepage": "https://github.com/serglom21/sentry-span-batch-processor#readme"
+}
